@@ -274,387 +274,485 @@
         </mxGraphModel>
     </diagram>
     <diagram id="aLN_5hUOp82o62brQYPH" name="系統循序圖">
-        <mxGraphModel dx="1644" dy="1136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="822" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-1" value="患者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-1" value="患者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
                     <mxGeometry x="60" y="20" width="30" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-2" value="醫院管理人員" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-2" value="醫院管理人員" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
                     <mxGeometry x="150" y="20" width="30" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-5" value="" style="endArrow=classic;startArrow=none;html=1;shape=link;" edge="1" parent="1" source="wUiqhygplUMeGH0I3HTK-13">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-5" value="" style="endArrow=classic;startArrow=none;html=1;shape=link;" parent="1" source="wUiqhygplUMeGH0I3HTK-13" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="40" y="130" as="sourcePoint"/>
-                        <mxPoint x="680" y="130" as="targetPoint"/>
+                        <mxPoint x="40" y="114" as="sourcePoint"/>
+                        <mxPoint x="680" y="114" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-7" value="醫院掛號系統" style="html=1;" vertex="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-7" value="醫院掛號系統" style="html=1;" parent="1" vertex="1">
                     <mxGeometry x="350" y="30" width="110" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-8" value="醫生" style="html=1;" vertex="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-8" value="醫生" style="html=1;" parent="1" vertex="1">
                     <mxGeometry x="530" y="30" width="110" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-9" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-9" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="75" y="1150" as="sourcePoint"/>
-                        <mxPoint x="75" y="110" as="targetPoint"/>
+                        <mxPoint x="75" y="920" as="sourcePoint"/>
+                        <mxPoint x="75" y="94" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-10" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-10" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="164" y="1151" as="sourcePoint"/>
-                        <mxPoint x="164" y="111" as="targetPoint"/>
+                        <mxPoint x="164" y="920" as="sourcePoint"/>
+                        <mxPoint x="164" y="95" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-11" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="wUiqhygplUMeGH0I3HTK-7">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-11" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="wUiqhygplUMeGH0I3HTK-7" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="405" y="1151" as="sourcePoint"/>
+                        <mxPoint x="405" y="920" as="sourcePoint"/>
                         <mxPoint x="405" y="111" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-12" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="wUiqhygplUMeGH0I3HTK-8">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-12" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="wUiqhygplUMeGH0I3HTK-8" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="585" y="1150" as="sourcePoint"/>
+                        <mxPoint x="585" y="920" as="sourcePoint"/>
                         <mxPoint x="415" y="90" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-14" value="" style="endArrow=none;startArrow=classic;html=1;shape=link;" edge="1" parent="1" target="wUiqhygplUMeGH0I3HTK-13">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-14" value="" style="endArrow=none;startArrow=classic;html=1;shape=link;" parent="1" target="wUiqhygplUMeGH0I3HTK-13" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="40" y="130" as="sourcePoint"/>
-                        <mxPoint x="680" y="130" as="targetPoint"/>
+                        <mxPoint x="40" y="114" as="sourcePoint"/>
+                        <mxPoint x="680" y="114" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-13" value="患者掛號流程" style="html=1;" vertex="1" parent="1">
-                    <mxGeometry x="310" y="120" width="90" height="20" as="geometry"/>
+                <mxCell id="wUiqhygplUMeGH0I3HTK-13" value="患者掛號流程" style="html=1;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="104" width="90" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-15" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" edge="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-15" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" parent="1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="80" y="162" as="sourcePoint"/>
-                        <mxPoint x="400" y="162" as="targetPoint"/>
+                        <mxPoint x="80" y="139" as="sourcePoint"/>
+                        <mxPoint x="400" y="139" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-16" value="註冊個人基本資料" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUiqhygplUMeGH0I3HTK-15">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-16" value="註冊個人基本資料" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wUiqhygplUMeGH0I3HTK-15" vertex="1" connectable="0">
                     <mxGeometry x="-0.3583" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-17" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" edge="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-17" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" parent="1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="80" y="189" as="sourcePoint"/>
-                        <mxPoint x="400" y="189" as="targetPoint"/>
+                        <mxPoint x="80" y="158" as="sourcePoint"/>
+                        <mxPoint x="400" y="158" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-18" value="選擇醫生和時段" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUiqhygplUMeGH0I3HTK-17">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-18" value="選擇醫生和時段" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wUiqhygplUMeGH0I3HTK-17" vertex="1" connectable="0">
                     <mxGeometry x="-0.3583" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-19" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" edge="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-19" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" parent="1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="410" y="207" as="sourcePoint"/>
-                        <mxPoint x="410" y="247" as="targetPoint"/>
+                        <mxPoint x="410" y="170" as="sourcePoint"/>
+                        <mxPoint x="410" y="210" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="520" y="207"/>
-                            <mxPoint x="520" y="247"/>
+                            <mxPoint x="520" y="170"/>
+                            <mxPoint x="520" y="210"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-20" value="檢查時段是否已滿" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUiqhygplUMeGH0I3HTK-19">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-20" value="檢查時段是否已滿" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wUiqhygplUMeGH0I3HTK-19" vertex="1" connectable="0">
                     <mxGeometry x="-0.3583" y="1" relative="1" as="geometry">
                         <mxPoint x="-30" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-21" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="266" width="520" height="194" as="geometry"/>
+                <mxCell id="wUiqhygplUMeGH0I3HTK-21" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="227" width="520" height="163" as="geometry"/>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-22" value="" style="endArrow=none;endFill=0;endSize=12;html=1;startArrow=classic;startFill=1;" edge="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-22" value="" style="endArrow=none;endFill=0;endSize=12;html=1;startArrow=classic;startFill=1;" parent="1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="80" y="318" as="sourcePoint"/>
-                        <mxPoint x="400" y="318" as="targetPoint"/>
+                        <mxPoint x="80" y="268" as="sourcePoint"/>
+                        <mxPoint x="400" y="268" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-23" value="顯示時段已滿訊息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUiqhygplUMeGH0I3HTK-22">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-23" value="顯示時段已滿訊息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wUiqhygplUMeGH0I3HTK-22" vertex="1" connectable="0">
                     <mxGeometry x="-0.3583" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-24" value="[時段已滿]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUiqhygplUMeGH0I3HTK-22">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-24" value="[時段已滿]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wUiqhygplUMeGH0I3HTK-22" vertex="1" connectable="0">
                     <mxGeometry x="0.2049" y="3" relative="1" as="geometry">
-                        <mxPoint x="-123" y="-29" as="offset"/>
+                        <mxPoint x="-123" y="-22" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-25" value="" style="endArrow=none;dashed=1;html=1;exitX=-0.004;exitY=0.324;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.001;entryY=0.33;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wUiqhygplUMeGH0I3HTK-21" target="wUiqhygplUMeGH0I3HTK-21">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-25" value="" style="endArrow=none;dashed=1;html=1;exitX=-0.004;exitY=0.324;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.001;entryY=0.33;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="410" y="360" as="sourcePoint"/>
-                        <mxPoint x="460" y="310" as="targetPoint"/>
+                        <mxPoint x="37.91999999999996" y="284.856" as="sourcePoint"/>
+                        <mxPoint x="560.52" y="286.02" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-26" value="[時段有空]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-                    <mxGeometry x="75.00333333333326" y="365" as="geometry"/>
+                <mxCell id="wUiqhygplUMeGH0I3HTK-26" value="[時段有空]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="75.00333333333326" y="302" as="geometry"/>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-27" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" edge="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-27" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" parent="1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="410" y="365" as="sourcePoint"/>
-                        <mxPoint x="410" y="405" as="targetPoint"/>
+                        <mxPoint x="410" y="304" as="sourcePoint"/>
+                        <mxPoint x="410" y="344" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="500" y="365"/>
-                            <mxPoint x="500" y="405"/>
+                            <mxPoint x="500" y="304"/>
+                            <mxPoint x="500" y="344"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-28" value="更新預約狀態" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUiqhygplUMeGH0I3HTK-27">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-28" value="更新預約狀態" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wUiqhygplUMeGH0I3HTK-27" vertex="1" connectable="0">
                     <mxGeometry x="-0.3583" y="1" relative="1" as="geometry">
                         <mxPoint x="-26" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-29" value="" style="endArrow=none;endFill=0;endSize=12;html=1;startArrow=classic;startFill=1;" edge="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-29" value="" style="endArrow=none;endFill=0;endSize=12;html=1;startArrow=classic;startFill=1;" parent="1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="80" y="431" as="sourcePoint"/>
-                        <mxPoint x="400" y="431" as="targetPoint"/>
+                        <mxPoint x="80" y="368" as="sourcePoint"/>
+                        <mxPoint x="400" y="368" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-30" value="顯示預約詳細資料" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUiqhygplUMeGH0I3HTK-29">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-30" value="顯示預約詳細資料" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wUiqhygplUMeGH0I3HTK-29" vertex="1" connectable="0">
                     <mxGeometry x="-0.3583" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-32" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" edge="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-32" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" parent="1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="80" y="490" as="sourcePoint"/>
-                        <mxPoint x="400" y="490" as="targetPoint"/>
+                        <mxPoint x="80" y="411" as="sourcePoint"/>
+                        <mxPoint x="400" y="411" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-33" value="收到預約通知" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUiqhygplUMeGH0I3HTK-32">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-33" value="收到預約通知" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wUiqhygplUMeGH0I3HTK-32" vertex="1" connectable="0">
                     <mxGeometry x="-0.3583" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-35" value="" style="endArrow=classic;startArrow=none;html=1;shape=link;" edge="1" parent="1" source="wUiqhygplUMeGH0I3HTK-37">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-35" value="" style="endArrow=classic;startArrow=none;html=1;shape=link;" parent="1" source="wUiqhygplUMeGH0I3HTK-37" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="40" y="523" as="sourcePoint"/>
-                        <mxPoint x="680" y="523.0000000000001" as="targetPoint"/>
+                        <mxPoint x="40" y="437" as="sourcePoint"/>
+                        <mxPoint x="680" y="437.0000000000001" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-36" value="" style="endArrow=none;startArrow=classic;html=1;shape=link;" edge="1" parent="1" target="wUiqhygplUMeGH0I3HTK-37">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-36" value="" style="endArrow=none;startArrow=classic;html=1;shape=link;" parent="1" target="wUiqhygplUMeGH0I3HTK-37" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="40" y="523.0000000000001" as="sourcePoint"/>
-                        <mxPoint x="680" y="523" as="targetPoint"/>
+                        <mxPoint x="40" y="437.0000000000001" as="sourcePoint"/>
+                        <mxPoint x="680" y="437" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-37" value="患者取消掛號流程" style="html=1;" vertex="1" parent="1">
-                    <mxGeometry x="310" y="513" width="110" height="20" as="geometry"/>
+                <mxCell id="wUiqhygplUMeGH0I3HTK-37" value="患者取消掛號流程" style="html=1;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="427" width="110" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-38" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" edge="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-38" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" parent="1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="80" y="556" as="sourcePoint"/>
-                        <mxPoint x="400" y="556" as="targetPoint"/>
+                        <mxPoint x="80" y="462" as="sourcePoint"/>
+                        <mxPoint x="400" y="462" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-39" value="取消掛號" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUiqhygplUMeGH0I3HTK-38">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-39" value="取消掛號" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wUiqhygplUMeGH0I3HTK-38" vertex="1" connectable="0">
                     <mxGeometry x="-0.3583" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-40" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" edge="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-40" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" parent="1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="413" y="580" as="sourcePoint"/>
-                        <mxPoint x="413" y="620" as="targetPoint"/>
+                        <mxPoint x="413" y="475" as="sourcePoint"/>
+                        <mxPoint x="413" y="515" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="510" y="580"/>
-                            <mxPoint x="510" y="620"/>
+                            <mxPoint x="510" y="475"/>
+                            <mxPoint x="510" y="515"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-41" value="釋出取消的時段" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUiqhygplUMeGH0I3HTK-40">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-41" value="釋出取消的時段" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wUiqhygplUMeGH0I3HTK-40" vertex="1" connectable="0">
                     <mxGeometry x="-0.3583" y="1" relative="1" as="geometry">
                         <mxPoint x="-28" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-43" value="" style="endArrow=none;endFill=0;endSize=12;html=1;startArrow=classic;startFill=1;" edge="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-43" value="" style="endArrow=none;endFill=0;endSize=12;html=1;startArrow=classic;startFill=1;" parent="1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="80" y="643" as="sourcePoint"/>
-                        <mxPoint x="400" y="643" as="targetPoint"/>
+                        <mxPoint x="80" y="532" as="sourcePoint"/>
+                        <mxPoint x="400" y="532" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-44" value="顯示取消成功訊息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUiqhygplUMeGH0I3HTK-43">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-44" value="顯示取消成功訊息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wUiqhygplUMeGH0I3HTK-43" vertex="1" connectable="0">
                     <mxGeometry x="-0.3583" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-45" value="" style="endArrow=classic;startArrow=none;html=1;shape=link;" edge="1" parent="1" source="wUiqhygplUMeGH0I3HTK-47">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-45" value="" style="endArrow=classic;startArrow=none;html=1;shape=link;" parent="1" source="wUiqhygplUMeGH0I3HTK-47" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="40" y="674" as="sourcePoint"/>
-                        <mxPoint x="680" y="674.0000000000002" as="targetPoint"/>
+                        <mxPoint x="40" y="557" as="sourcePoint"/>
+                        <mxPoint x="680" y="557.0000000000002" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-46" value="" style="endArrow=none;startArrow=classic;html=1;shape=link;" edge="1" parent="1" target="wUiqhygplUMeGH0I3HTK-47">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-46" value="" style="endArrow=none;startArrow=classic;html=1;shape=link;" parent="1" target="wUiqhygplUMeGH0I3HTK-47" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="40" y="674.0000000000002" as="sourcePoint"/>
-                        <mxPoint x="680" y="674" as="targetPoint"/>
+                        <mxPoint x="40" y="557.0000000000002" as="sourcePoint"/>
+                        <mxPoint x="680" y="557" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-47" value="醫院管理人員流程" style="html=1;" vertex="1" parent="1">
-                    <mxGeometry x="310" y="664" width="110" height="20" as="geometry"/>
+                <mxCell id="wUiqhygplUMeGH0I3HTK-47" value="醫院管理人員流程" style="html=1;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="547" width="110" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-48" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" edge="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-48" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" parent="1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="170" y="710" as="sourcePoint"/>
-                        <mxPoint x="400" y="710" as="targetPoint"/>
+                        <mxPoint x="170" y="588" as="sourcePoint"/>
+                        <mxPoint x="400" y="588" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-49" value="登入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUiqhygplUMeGH0I3HTK-48">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-49" value="登入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wUiqhygplUMeGH0I3HTK-48" vertex="1" connectable="0">
                     <mxGeometry x="-0.3583" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-50" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" edge="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-50" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" parent="1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="170" y="740" as="sourcePoint"/>
-                        <mxPoint x="400" y="740" as="targetPoint"/>
+                        <mxPoint x="170" y="615" as="sourcePoint"/>
+                        <mxPoint x="400" y="615" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-51" value="查看掛號資料" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUiqhygplUMeGH0I3HTK-50">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-51" value="查看掛號資料" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wUiqhygplUMeGH0I3HTK-50" vertex="1" connectable="0">
                     <mxGeometry x="-0.3583" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-52" value="" style="endArrow=none;endFill=0;endSize=12;html=1;startArrow=classic;startFill=1;" edge="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-52" value="" style="endArrow=none;endFill=0;endSize=12;html=1;startArrow=classic;startFill=1;" parent="1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="170" y="770" as="sourcePoint"/>
-                        <mxPoint x="400" y="770" as="targetPoint"/>
+                        <mxPoint x="170" y="637" as="sourcePoint"/>
+                        <mxPoint x="400" y="637" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-53" value="顯示已掛號的患者列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUiqhygplUMeGH0I3HTK-52">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-53" value="顯示已掛號的患者列表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wUiqhygplUMeGH0I3HTK-52" vertex="1" connectable="0">
                     <mxGeometry x="-0.3583" y="1" relative="1" as="geometry">
                         <mxPoint x="12" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-54" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" edge="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-54" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" parent="1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="170" y="799" as="sourcePoint"/>
-                        <mxPoint x="400" y="799" as="targetPoint"/>
+                        <mxPoint x="170" y="659" as="sourcePoint"/>
+                        <mxPoint x="400" y="659" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-55" value="查看患者詳細資料" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUiqhygplUMeGH0I3HTK-54">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-55" value="查看患者詳細資料" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wUiqhygplUMeGH0I3HTK-54" vertex="1" connectable="0">
                     <mxGeometry x="-0.3583" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-56" value="" style="endArrow=none;endFill=0;endSize=12;html=1;startArrow=classic;startFill=1;" edge="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-56" value="" style="endArrow=none;endFill=0;endSize=12;html=1;startArrow=classic;startFill=1;" parent="1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="170" y="827" as="sourcePoint"/>
-                        <mxPoint x="400" y="827" as="targetPoint"/>
+                        <mxPoint x="170" y="683" as="sourcePoint"/>
+                        <mxPoint x="400" y="683" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-57" value="顯示患者的基本資料" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUiqhygplUMeGH0I3HTK-56">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-57" value="顯示患者的基本資料" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wUiqhygplUMeGH0I3HTK-56" vertex="1" connectable="0">
                     <mxGeometry x="-0.3583" y="1" relative="1" as="geometry">
                         <mxPoint x="12" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-58" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" edge="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-58" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" parent="1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="170" y="857" as="sourcePoint"/>
-                        <mxPoint x="400" y="857" as="targetPoint"/>
+                        <mxPoint x="170" y="705" as="sourcePoint"/>
+                        <mxPoint x="400" y="705" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-59" value="查看醫生診斷時段" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUiqhygplUMeGH0I3HTK-58">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-59" value="查看醫生診斷時段" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wUiqhygplUMeGH0I3HTK-58" vertex="1" connectable="0">
                     <mxGeometry x="-0.3583" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-60" value="" style="endArrow=none;endFill=0;endSize=12;html=1;startArrow=classic;startFill=1;" edge="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-60" value="" style="endArrow=none;endFill=0;endSize=12;html=1;startArrow=classic;startFill=1;" parent="1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="170" y="885" as="sourcePoint"/>
-                        <mxPoint x="400" y="885" as="targetPoint"/>
+                        <mxPoint x="170" y="729" as="sourcePoint"/>
+                        <mxPoint x="400" y="729" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-61" value="顯示醫生診斷時段" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUiqhygplUMeGH0I3HTK-60">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-61" value="顯示醫生診斷時段" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wUiqhygplUMeGH0I3HTK-60" vertex="1" connectable="0">
                     <mxGeometry x="-0.3583" y="1" relative="1" as="geometry">
                         <mxPoint x="12" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-62" value="" style="endArrow=classic;startArrow=none;html=1;shape=link;" edge="1" parent="1" source="wUiqhygplUMeGH0I3HTK-64">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-62" value="" style="endArrow=classic;startArrow=none;html=1;shape=link;" parent="1" source="wUiqhygplUMeGH0I3HTK-64" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="40" y="919" as="sourcePoint"/>
-                        <mxPoint x="680" y="919.0000000000002" as="targetPoint"/>
+                        <mxPoint x="40" y="760" as="sourcePoint"/>
+                        <mxPoint x="680" y="760.0000000000002" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-63" value="" style="endArrow=none;startArrow=classic;html=1;shape=link;" edge="1" parent="1" target="wUiqhygplUMeGH0I3HTK-64">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-63" value="" style="endArrow=none;startArrow=classic;html=1;shape=link;" parent="1" target="wUiqhygplUMeGH0I3HTK-64" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="40" y="919.0000000000002" as="sourcePoint"/>
-                        <mxPoint x="680" y="919" as="targetPoint"/>
+                        <mxPoint x="40" y="760.0000000000002" as="sourcePoint"/>
+                        <mxPoint x="680" y="760" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-64" value="醫生診斷流程" style="html=1;" vertex="1" parent="1">
-                    <mxGeometry x="310" y="909" width="110" height="20" as="geometry"/>
+                <mxCell id="wUiqhygplUMeGH0I3HTK-64" value="醫生診斷流程" style="html=1;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="750" width="110" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-65" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" edge="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-65" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" parent="1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="410" y="950" as="sourcePoint"/>
-                        <mxPoint x="580" y="950" as="targetPoint"/>
+                        <mxPoint x="410" y="786" as="sourcePoint"/>
+                        <mxPoint x="580" y="786" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-66" value="登入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUiqhygplUMeGH0I3HTK-65">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-66" value="登入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wUiqhygplUMeGH0I3HTK-65" vertex="1" connectable="0">
                     <mxGeometry x="-0.3583" y="1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-67" value="" style="endArrow=none;endFill=0;endSize=12;html=1;startArrow=classic;startFill=1;" edge="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-67" value="" style="endArrow=none;endFill=0;endSize=12;html=1;startArrow=classic;startFill=1;" parent="1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="410" y="980" as="sourcePoint"/>
-                        <mxPoint x="580" y="980" as="targetPoint"/>
+                        <mxPoint x="410" y="807" as="sourcePoint"/>
+                        <mxPoint x="580" y="807" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-68" value="查看患者症狀" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUiqhygplUMeGH0I3HTK-67">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-68" value="查看患者症狀" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wUiqhygplUMeGH0I3HTK-67" vertex="1" connectable="0">
                     <mxGeometry x="-0.3583" y="1" relative="1" as="geometry">
                         <mxPoint x="12" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-69" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" edge="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-69" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" parent="1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="410" y="1010" as="sourcePoint"/>
-                        <mxPoint x="580" y="1010" as="targetPoint"/>
+                        <mxPoint x="410" y="832" as="sourcePoint"/>
+                        <mxPoint x="580" y="832" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-70" value="提供診斷參考資訊" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUiqhygplUMeGH0I3HTK-69">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-70" value="提供診斷參考資訊" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wUiqhygplUMeGH0I3HTK-69" vertex="1" connectable="0">
                     <mxGeometry x="-0.3583" y="1" relative="1" as="geometry">
                         <mxPoint x="11" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-71" value="" style="endArrow=none;endFill=0;endSize=12;html=1;startArrow=classic;startFill=1;" edge="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-71" value="" style="endArrow=none;endFill=0;endSize=12;html=1;startArrow=classic;startFill=1;" parent="1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="410" y="1040" as="sourcePoint"/>
-                        <mxPoint x="580" y="1040" as="targetPoint"/>
+                        <mxPoint x="410" y="856" as="sourcePoint"/>
+                        <mxPoint x="580" y="856" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-72" value="輸入診斷結果和處方" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUiqhygplUMeGH0I3HTK-71">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-72" value="輸入診斷結果和處方" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wUiqhygplUMeGH0I3HTK-71" vertex="1" connectable="0">
                     <mxGeometry x="-0.3583" y="1" relative="1" as="geometry">
                         <mxPoint x="24" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-73" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" edge="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-73" value="" style="endArrow=classic;endFill=1;endSize=12;html=1;" parent="1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="410" y="1070" as="sourcePoint"/>
-                        <mxPoint x="580" y="1070" as="targetPoint"/>
+                        <mxPoint x="410" y="877" as="sourcePoint"/>
+                        <mxPoint x="580" y="877" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-74" value="保存診斷結果和處方" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUiqhygplUMeGH0I3HTK-73">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-74" value="保存診斷結果和處方" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wUiqhygplUMeGH0I3HTK-73" vertex="1" connectable="0">
                     <mxGeometry x="-0.3583" y="1" relative="1" as="geometry">
                         <mxPoint x="11" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-75" value="" style="endArrow=none;endFill=0;endSize=12;html=1;startArrow=classic;startFill=1;" edge="1" parent="1">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-75" value="" style="endArrow=none;endFill=0;endSize=12;html=1;startArrow=classic;startFill=1;" parent="1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="410" y="1100" as="sourcePoint"/>
-                        <mxPoint x="580" y="1100" as="targetPoint"/>
+                        <mxPoint x="410" y="900" as="sourcePoint"/>
+                        <mxPoint x="580" y="900" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="wUiqhygplUMeGH0I3HTK-76" value="登出" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wUiqhygplUMeGH0I3HTK-75">
+                <mxCell id="wUiqhygplUMeGH0I3HTK-76" value="登出" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wUiqhygplUMeGH0I3HTK-75" vertex="1" connectable="0">
                     <mxGeometry x="-0.3583" y="1" relative="1" as="geometry">
                         <mxPoint x="-1" as="offset"/>
                     </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="wvxwxQhKEscw_hrYBh3j" name="合約圖">
+        <mxGraphModel dx="822" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-1" value="合約1：患者註冊" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="10" width="300" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-2" value="操作：當患者註冊時，需要提供基本資料" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0CbpM1-X8JAO239gv5gN-1">
+                    <mxGeometry y="26" width="300" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-3" value="交互參照：註冊資料" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0CbpM1-X8JAO239gv5gN-1">
+                    <mxGeometry y="52" width="300" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-4" value="前置條件：患者必須先開啟網站" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0CbpM1-X8JAO239gv5gN-1">
+                    <mxGeometry y="78" width="300" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-5" value="後置條件：患者註冊成功可以開始掛號" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0CbpM1-X8JAO239gv5gN-1">
+                    <mxGeometry y="104" width="300" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-6" value="合約3：患者收到通知" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="180" width="300" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-7" value="操作：系統向患者發送預約通知，包括預約日期、時間&#10;           、醫生姓名" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0CbpM1-X8JAO239gv5gN-6">
+                    <mxGeometry y="26" width="300" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-8" value="交互參照：預約通知" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0CbpM1-X8JAO239gv5gN-6">
+                    <mxGeometry y="60" width="300" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-9" value="前置條件：患者必須事先有掛號" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0CbpM1-X8JAO239gv5gN-6">
+                    <mxGeometry y="86" width="300" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-10" value="後置條件：系統推播電子郵件或簡訊給患者，患者收到&#10;                  預約通知" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0CbpM1-X8JAO239gv5gN-6">
+                    <mxGeometry y="112" width="300" height="38" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-11" value="合約2：患者掛號" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="10" width="300" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-12" value="操作：患者透過掛號系統，選擇特定時段、醫生" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0CbpM1-X8JAO239gv5gN-11">
+                    <mxGeometry y="26" width="300" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-13" value="交互參照：預約掛號" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0CbpM1-X8JAO239gv5gN-11">
+                    <mxGeometry y="52" width="300" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-14" value="前置條件：患者必須事先註冊" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0CbpM1-X8JAO239gv5gN-11">
+                    <mxGeometry y="78" width="300" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-15" value="後置條件：患者成功預約，該時段不再對外開放" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0CbpM1-X8JAO239gv5gN-11">
+                    <mxGeometry y="104" width="300" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-16" value="合約4：患者取消掛號" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="180" width="300" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-17" value="操作：患者可以取消已經預約的掛號" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0CbpM1-X8JAO239gv5gN-16">
+                    <mxGeometry y="26" width="300" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-18" value="交互參照：取消掛號" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0CbpM1-X8JAO239gv5gN-16">
+                    <mxGeometry y="52" width="300" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-19" value="前置條件：患者必須事先有掛號" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0CbpM1-X8JAO239gv5gN-16">
+                    <mxGeometry y="78" width="300" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-20" value="後置條件：患者取消預約成功，該時段將對其他患者對&#10;                  外開放" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0CbpM1-X8JAO239gv5gN-16">
+                    <mxGeometry y="104" width="300" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-21" value="合約5：醫院管理員查看掛號資訊" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="370" width="300" height="138" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-22" value="操作：管理員可以查看患者掛號、基本資料、診斷時間&#10;           等" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0CbpM1-X8JAO239gv5gN-21">
+                    <mxGeometry y="26" width="300" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-23" value="交互參照：查看治療進度" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0CbpM1-X8JAO239gv5gN-21">
+                    <mxGeometry y="60" width="300" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-24" value="前置條件：管理員已登入掛號系統" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0CbpM1-X8JAO239gv5gN-21">
+                    <mxGeometry y="86" width="300" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-25" value="後置條件：管理員成功查看掛號資料" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0CbpM1-X8JAO239gv5gN-21">
+                    <mxGeometry y="112" width="300" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-26" value="合約6：醫生診斷" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="370" width="300" height="138" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-27" value="操作：根據患者症狀醫生提供診斷紀錄，保存診斷、處&#10;           方紀錄" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0CbpM1-X8JAO239gv5gN-26">
+                    <mxGeometry y="26" width="300" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-28" value="交互參照：查看治療進度" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0CbpM1-X8JAO239gv5gN-26">
+                    <mxGeometry y="60" width="300" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-29" value="前置條件：患者已預約看診" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0CbpM1-X8JAO239gv5gN-26">
+                    <mxGeometry y="86" width="300" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="0CbpM1-X8JAO239gv5gN-30" value="後置條件：診斷結果和處方紀錄成功保存" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0CbpM1-X8JAO239gv5gN-26">
+                    <mxGeometry y="112" width="300" height="26" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
